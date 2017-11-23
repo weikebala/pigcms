@@ -1,0 +1,1319 @@
+[ 2017-10-18T17:46:55+08:00 ] 127.0.0.1 /index.php?g=User&m=Wechat_group&a=send&token=luzdzh1508224426&next_openid=ogwwIwhehFptKzMnb0xV5DMd8NQs
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.008465s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.009160s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.009130s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.007720s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000334s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000353s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined property: stdClass::$errmsg G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 322 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined property: stdClass::$data G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 96 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 96 行.
+NOTIC: [2] Invalid argument supplied for foreach() G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 100 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.675297s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000913s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.676251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007339s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.683622s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.684196s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.684773s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.685263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002291s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.685967s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2017-10-18T17:47:12+08:00 ] 127.0.0.1 /index.php?g=User&m=Wechat_group&a=send_info&token=luzdzh1508224426
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.012552s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.012480s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.007490s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.008226s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000495s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000587s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined property: stdClass::$errmsg G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 322 行.
+SQL: SHOW COLUMNS FROM `pigcms_wechat_group_list` [ RunTime:0.007741s ]
+SQL: SELECT `openid`,`id` FROM `pigcms_wechat_group_list` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `subscribe_time` = 0 ) ORDER BY id desc LIMIT 20   [ RunTime:0.000759s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/4/a/4ae68ecfce97ecb1330d73653f00cdf1.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: SHOW COLUMNS FROM `pigcms_wechat_group_list` [ RunTime:0.004416s ]
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwkRp68hqgGBIrmtok0T4W8o',`nickname`='美联美购',`sex`='0',`city`='',`province`='',`headimgurl`='http://wx.qlogo.cn/mmopen/ia3ZZiays7ILyDLOAlczpvGm53YicOQ1VWibYFSv7vRxszRiblzW80OUIOBk59ZGIy1GFkicMd53Mwo9AGFkz8MmHe7u2KszF2a3F2/0',`subscribe_time`='1508313483',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15526 ) [ RunTime:0.000377s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/b/c/bc27262ff20b56476e6565be8aed46bd.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwqrJriiZ8e2Z8vammHO6a7k',`nickname`='会呼吸的痛',`sex`='2',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/PiajxSqBRaEJ230L87oNwmDG80jibezWeNeVuicgdkOkRIEuFVdichvlDAN3SSaBsibe4n2BCoKnIoGibbdguRV3iaEIJnlsosTVhiat7YliaWb5GjMA/0',`subscribe_time`='1508234591',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15525 ) [ RunTime:0.000370s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/8/8/88cf558bd8b18a214cc17591faeb4d22.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwt1vqUodmAJknahe7U4kgos',`nickname`='重生',`sex`='2',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/Q3auHgzwzM537qwft9IR2qGpZcr1o6ghzrPmYMXFyuzfsDuTHQY4M6rvKiaVy05HHSf8duQkIUbhT4EsuPQohTUv9HZr11KhZoK4N1FDo8S8/0',`subscribe_time`='1508304288',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15524 ) [ RunTime:0.001443s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/7/e/7e6c68be5d040a8810c0bea2da98fd7a.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwtFSSio4ct9_bqnVcnNexKY',`nickname`='186',`sex`='2',`city`='开县',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpBnE0I1rVlAcwA9YPiaNWejAdD4SUtibKwicTe0kAcNGfOse6RHrUkHhHMQyH8OxaGqZ2ic332hlcicNrxm5aIU7mQnE/0',`subscribe_time`='1508293486',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15523 ) [ RunTime:0.000605s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/d/7/d7aeb1bec315fb12496eb8790fad8868.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwvceK-ZGnma-CTINPHYSnwk',`nickname`='广盶',`sex`='1',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/7vwJ7DGrcKA2GPPDmGCfkLwUJHmJFdO0ODZ6CEv4fjZIdiaUwy4Cib19FVZu1c1nMereMX5Ul2vBk7iblLEB9a7X8Z2nAa2b1qJ/0',`subscribe_time`='1508241259',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15522 ) [ RunTime:0.000783s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/9/d/9d6174f3d841959a0d5eef01296c5d87.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwvI1GKKGgbu0BxPr1uHrS4Q',`nickname`='快乐的小天使',`sex`='2',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpCiaOFL0fvqBs8KcJ4ib7BFmBia078ibF9WlJG7cDhCib91tOKrT7ksiaGjZSsuKk1BheXG6zZ5gA1iahrxOQabPJvbo9A/0',`subscribe_time`='1508226135',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15521 ) [ RunTime:0.001130s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/9/b/9b31495dc51773fc1423172d7762d0ba.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwiM52xztCH_TQt9BJw_YP78',`nickname`='缘来是你',`sex`='1',`city`='巴南',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpDic4QQClbjg0hco9u2fhl8eTZBfyKQEc8WAfdLKtrb8qr16iacqECKr8S0asrl4cRxlibbuPclDLrwVhQ06gs3ibibO/0',`subscribe_time`='1508242887',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15520 ) [ RunTime:0.001115s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/6/d/6d3c26fa1c04eb3e0c95cd559ddaea47.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwsyIfDEhAh3kWtOm8WHPzt4',`nickname`='佳霖',`sex`='1',`city`='合川',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LQc3uT7qjFsqIyKibDdBCsPEeLAmbAcNCr0pMgibxo2sePNfDoaphlKJnGvjICrenyh1Du3axHaxPpq6qH7gCficEL/0',`subscribe_time`='1508294030',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15519 ) [ RunTime:0.001106s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/6/c/6ccef03efb336899940ae05ac30d8438.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwk7FHg-uiglmq8sAUNfBe9Q',`nickname`='覃学',`sex`='2',`city`='渝北',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLAtnGXS9CqWpyEPVCfeJQARmx3vV7ovZDIeCbiad6SJlynuUNWtHicgFRG8mfutWOxCIZFaia3eqMZuGfEqUsib0fs8HSXYKrPiaXVo/0',`subscribe_time`='1508303072',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15518 ) [ RunTime:0.000540s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/a/1/a159b72e79b96c0e2e40926625226b2e.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwiNzYuLNfY3iHcYbtate_L8',`nickname`='开心宝贝',`sex`='2',`city`='',`province`='福拉尔贝格',`headimgurl`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLCMnaPU167uhEAmLvvTLDapL72rvqkLq8GMA0Xg4PUbPnXCEDOEdZaZ0iatXPVTAvmyiaQ3hoVNX2FMYssmx1nMe7pzK9RJE5W4c/0',`subscribe_time`='1508315452',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15517 ) [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/f/1/f170dae2cb6223c60e3134203f523bf7.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwsCjP_uCzbcjMEmzc3S4am4',`nickname`='霄雪',`sex`='2',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/icrbZ0LwArwXtic9gElBwPuLFeh2oRnSHr71yzEZQXcRnWSiaYY5CrdwtJdmmsguQLhDMfGlpQTuCr0H04jXLABYsWVYo4wobXU/0',`subscribe_time`='1508307662',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15516 ) [ RunTime:0.000359s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/d/9/d9109063e00868ef2fc42adfabc12b71.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwke0McHQd_BmD1OLCOtzOW4',`nickname`='锐不可挡',`sex`='1',`city`='杭州',`province`='浙江',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LTulcVfGOaEVAONdAWj48cRZwIXayLmg9qsp622Klw6tBllACZ7Hcmdj4UsvfXNjuvfnndiberQlg9o3kz4RKoKF/0',`subscribe_time`='1508243959',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15515 ) [ RunTime:0.001103s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/b/c/bc7d8ca465b5dcb585b16b2e4308eede.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwkQGUCEU9pqg09UH8IB08DQ',`nickname`='刘美媛',`sex`='2',`city`='渝北',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/icrbZ0LwArwXcIticlKkPKhEB4mCclDv4n2yHs4IYMAFwU9X56r4ctibQkianj42O8tP6gH8skvWlpnlQkhUAC6NSsRBrPCib7rtH/0',`subscribe_time`='1508228885',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15514 ) [ RunTime:0.000431s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/3/9/39bd68e7132db1f9c1a4dac921c1841d.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwizg17J3jMTqNYfarUQjoyA',`nickname`='女人无情便是王；🌺',`sex`='2',`city`='城口',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LTulcVfGOaEVAxtbjDECGbJSe29uKWJRzGwG3WVVRPIIH81ByI5HslxObVwtqsLmhWwJXHV2Iib0U0icTwUzKicGhL/0',`subscribe_time`='1508240769',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15513 ) [ RunTime:0.000382s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/4/d/4dcae20bac44fc0edaefa8f811adf190.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwlOCUE_aQ-NX2G-26LyhiXU',`nickname`='曹妹儿',`sex`='2',`city`='铜梁',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LTulcVfGOaEVI49caPIeyiacs9w4ibCLoQWTEoTaZyjmdYOU0sdWIdiapRgWf4aIPkUA4U6mcBtz0knsuOHW28XI1r/0',`subscribe_time`='1508304455',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15512 ) [ RunTime:0.001121s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/6/8/689b6c718cec3972bac593513001c968.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwm02PFCwqoY2w7UMGs78iDc',`nickname`='丹',`sex`='2',`city`='',`province`='米德尔堡',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LTulcVfGOaEVIBUnyjxzbosgJe5MYtzCFXVhwlYuvRkcQ5EPMSUkI775G0HYiadBnlyrzET2ia6vxhAh22ZmDM9u0/0',`subscribe_time`='1508311235',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15511 ) [ RunTime:0.001108s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/8/7/87049c36ddb11d0b6e9150a0368dc63f.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwrw6nDb_vxPNNDBMtXJZAfA',`nickname`='sly馋火炉鱼',`sex`='2',`city`='',`province`='基尔肯尼',`headimgurl`='http://wx.qlogo.cn/mmopen/dX5KJFKMYjW5oHXvIN5CSe5mdKrM68LPDXkgBEvsD4ib6z1czsEDnnzqqo2QQ0hBWmBbymmUFWYHPHNiaIGQ7CwkfVqdAn6nav/0',`subscribe_time`='1508240924',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15510 ) [ RunTime:0.000373s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/5/5/55032e75cb7b045897fab4f0341b889e.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwiCecJPJdhH1cQFBdJe0U68',`nickname`='苏宝',`sex`='1',`city`='九龙坡',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LTulcVfGOaEVIxkk854Vvd5mCs1N6zy4hMFhWOvCkVT3Kc7Pg7jd4daxjld4VgXK2CRUpQJsHjZH1WZKJ2yuPicS/0',`subscribe_time`='1508310576',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15509 ) [ RunTime:0.000397s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/4/4/44cb4d9df82f9c2af9bbdc33a56e12fd.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIws4cCKIcNxX98yB2UdBYzHE',`nickname`='夏伦义13218855529',`sex`='1',`city`='无锡',`province`='江苏',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LTulcVfGOaEVHYOaTjgy9xDvEibwEjqofRMicIBCYwCSfuz7udns18uDWJhwvP41rCF4zc4LGf4PaIDST1h9MDuIU/0',`subscribe_time`='1508316396',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15508 ) [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/3/8/381abb295d6c36ed8ed9b676050988fd.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwop5ZkgXHAlQFKhwOjVC8uk',`nickname`='要得',`sex`='1',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpDic4QQClbjg0n3YSUe6iciasrGWt3IHO2RFfLFnLBMxcwW0ahdG0hcuq5icS1Sh168opqoB64cOruAOQZmiaISO7Olj/0',`subscribe_time`='1508230834',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15507 ) [ RunTime:0.000391s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pigcms_wechat_group_list` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `subscribe_time` = 0 ) LIMIT 1   [ RunTime:0.010709s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-15.672385s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-15.673044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005231s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-15.678306s ]
+INFO: Run TokenBuild Behavior [ RunTime:-15.678695s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-15.679072s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-15.679380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001501s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-15.679846s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-10-18T17:47:29+08:00 ] 127.0.0.1 /index.php?g=User&m=Wechat_group&a=send_info
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.009759s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.041185s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.061091s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.003175s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000232s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000273s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined property: stdClass::$errmsg G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 322 行.
+SQL: SHOW COLUMNS FROM `pigcms_wechat_group_list` [ RunTime:0.004606s ]
+SQL: SELECT `openid`,`id` FROM `pigcms_wechat_group_list` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `subscribe_time` = 0 ) ORDER BY id desc LIMIT 20   [ RunTime:0.013974s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/5/0/507bb9dab5793ef490ddf7b6990ebd2f.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: SHOW COLUMNS FROM `pigcms_wechat_group_list` [ RunTime:0.038465s ]
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwjgx-26VPAKi6qSc3YwYSwk',`nickname`='～',`sex`='2',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLB0u77eTOdnJefBVLO1yHcdI4HqbiaKayqYKibRqH0CxdHyeQmmKWmU3IR9xKQwSLMC9iaf191ThNg3FKbv0a6PicP6CI3MUE77KlU/0',`subscribe_time`='1508317645',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15506 ) [ RunTime:0.001045s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/4/4/44ab1b0bda0da93a4504c5046bac6498.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwqhLyVbyiorec_3Agn4YIF0',`nickname`='鹏《少年》',`sex`='1',`city`='北碚',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpACcXzteFaTXUKufunCnGcmjzUQtF4p9nWYhqgzFpV4bmUTvWRjX7UW56WJHP73dxZAPf8lzGicqTnzKIibxGOKFE/0',`subscribe_time`='1508305639',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15505 ) [ RunTime:0.001093s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/2/6/26fabcdb99d0151f8cda683f2aec4b1f.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwkGLsogpJGWugqRmgLVQQxA',`nickname`='天乐',`sex`='1',`city`='江北',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/icrbZ0LwArwXTysZ6dOTk5FWq5LMXeibcTziclib9CZr757kU36DiciaR650j9x5G9hxGnPxpjPB5s8L0PY9WOyiaXWFiaBl7wia8rz0L/0',`subscribe_time`='1508245202',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15504 ) [ RunTime:0.000658s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/1/5/158937b1f3c5aaf93fadeae4942fb73c.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIws6n1DJX65gsjLKs1AkA5Bo',`nickname`='真真假假',`sex`='2',`city`='',`province`='',`headimgurl`='http://wx.qlogo.cn/mmopen/icrbZ0LwArwWJDCN1uKev3LIP0s63DSqVIUpUkXKVKuRbajdCoBk93ibv45LDnlOQ4CjmARoRPPLG2HbHyH8CUo2BxL4c7x0kv/0',`subscribe_time`='1508271488',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15503 ) [ RunTime:0.000727s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/1/f/1fc5fd24f81e2f2e524bda07478d6726.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwhHmAJU_dHH5PCt2RpOOJ44',`nickname`='璐 °      d3sTiny-',`sex`='2',`city`='巴南',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LRuj4mrtQ10T7zd1hpfLp9kic1y6AErJ3yoibR4STOZSQlvHlArGlzlVvxr3WkCH5RRkB7xD3caD9HWpibdiaD2eH17/0',`subscribe_time`='1508313461',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15502 ) [ RunTime:0.000650s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/e/a/ea3c78fb917e63494163bb794c80c777.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwjCiNWsZqhdtmNJYhQYwu2c',`nickname`='飞儿',`sex`='2',`city`='渝北',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/icrbZ0LwArwV86KoaX4JHCpOG0aGJKvX3rgZzsllSoNATYuXeu9fgKicGXlV1lsjVM9zib7hhgQKovyonoklicWZcH8hdfRayFZd/0',`subscribe_time`='1508316898',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15501 ) [ RunTime:0.001177s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/e/3/e33e2e9613cfe8961748c5d86507147c.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwgcHQgagIll9h6ph5dPH1S8',`nickname`='不小心',`sex`='2',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/K6CEv0Hv9Dfk87VbnOzM8YEQP3QDYqcTaK4HUmmdL4Wo66EuBNUqptcIEACwqdqPFLlXrDO7wrLichRtufmLrS7t0AhkPZ1pic/0',`subscribe_time`='1508306158',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15500 ) [ RunTime:0.001237s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/e/0/e02bd98d7077ce4dd115663011f46980.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwmMXTcpuyM3t5jXjOOgQ4nw',`nickname`='可可',`sex`='2',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LRiag3UAc6PiaHXyy19v4YBeQB7aDEMt0KxUZickNONYAr67k2HYytGW9gnoicFtELqmXbloaljmuYHdrDb9hda99DK/0',`subscribe_time`='1508299962',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15499 ) [ RunTime:0.001151s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/6/4/64350bce749b7d472fa58511109068e1.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwnaCELlly2NTMljs-4AYrNU',`nickname`='谭谭。。',`sex`='0',`city`='',`province`='',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpCr0ic8PtbBOF9nwDh12HSJiaWI26L1beFqKAiaUPfgoBhByJ2PdOY6dWNgnqXa1KrAjLiavBDKENDZibdWOsuKNBL41/0',`subscribe_time`='1508319038',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15498 ) [ RunTime:0.001108s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/f/e/fe53695ea691975378c2e2b352f6c17c.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwgiogJ1cY417TBz7xxY6J5w',`nickname`='欣@泽宝贝',`sex`='2',`city`='沙坪坝',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/K6CEv0Hv9DdiciaxX5Mr7VwqRs3PXULVHOAicZibusRxJRC3icefuLXon8ol7M8YECcu4uCQ1JqhIyMcB3ccrbXb4vO3wZWRAnUoN/0',`subscribe_time`='1508230498',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15497 ) [ RunTime:0.000853s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/e/a/ea6091c0e2c4f9c1f7325a1d11659e7c.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwgPtRiOf0NDjZbjZMPv5_Xo',`nickname`='Sunnybrook',`sex`='2',`city`='长寿',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpAE8qdQHI7FSe042x4wicG4l9HTNicjLJiaPmNeCPbOomwiaAkX0a1vIfiaib8q0dXdh6bibgWzqwicrZoWu5n3dpicO0icXf/0',`subscribe_time`='1508291729',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15496 ) [ RunTime:0.001295s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/5/e/5ef3763d81a9123e4e38d6deefa81b36.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwtJ39qHesqwYtJvM3cNfGCE',`nickname`='谭明娥-15310056678',`sex`='2',`city`='万州',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpAE8qdQHI7FSf7gYNjuUDf8KqRHuSKYic5ic4bSG68aeSNaM96w4kY5nqxnYIL78vzrlz6zubSPq71C84SDGAk2Px/0',`subscribe_time`='1508242291',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15495 ) [ RunTime:0.001083s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/1/b/1bfda2de304d8931dca2c3abe4491216.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwuhLpXccFJpoqxSv436IHSE',`nickname`='小福',`sex`='2',`city`='',`province`='',`headimgurl`='http://wx.qlogo.cn/mmopen/dw6cb6wwra1zXhkwibibStrvvnnrUyIdyouj7XjPTzGJFjj9ib0ag2jwsHGsMnBNxECK6IwUrzMbo3UACxjnmaxHbFJfd1FibdFP/0',`subscribe_time`='1508237378',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15494 ) [ RunTime:0.000881s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/3/2/329a7ad381a98cd8ca5dcb3297888baf.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwup47b3AJvYtKhe3KfxxqNI',`nickname`='天马',`sex`='1',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LTmccYm9rAQjZnP8ALmrmLgq9YtkuKuqsQCnjE3A72iaQOiahplwDtDFWCY7QtZkZ1yTFGjWZveZm3Zt1DFTL6ciae/0',`subscribe_time`='1508232614',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15493 ) [ RunTime:0.000368s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/b/c/bcd910fc02e19a6da776cb85929a2d4b.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwsOgd4sviQDGCQyanpoWFVM',`nickname`='凉城惜忆',`sex`='2',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LTmccYm9rAQjUj7ibOa3icC4iaGkha2TicGQ6ImMQZfpfBWLPy15ibXyaP92eqMBHSZG7tQPt076kmxD64cYJbgK9D0E/0',`subscribe_time`='1508309294',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15492 ) [ RunTime:0.000921s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/1/3/13047afe869fa0fcc0b11053d243488f.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwh5XHNtmZjTJbHahIOm-vo0',`nickname`='两眼一摸黑',`sex`='1',`city`='合川',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LTmccYm9rAQjW9xIZtUSPgN1BemYf3Q8xVmRTNpEWrxD5JzudvDaXZDL3xbKbNuEWzBgy9LzulNkfeSfrzof74ic/0',`subscribe_time`='1508315307',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15491 ) [ RunTime:0.001085s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/8/3/837180bbef41a44c829ee8a3e48580e0.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwtDuO2aJ0iNTMTZNMpNpAh8',`nickname`='张梦昕',`sex`='2',`city`='成都',`province`='四川',`headimgurl`='http://wx.qlogo.cn/mmopen/dw6cb6wwra1zXhkwibibStrjfZxrJqBVYz2cEibCXUZE1icicTqg1ZToJFhU99icNV9BUH55WZMjD2w48t0fKmtdcCrenN9fLZmmOh/0',`subscribe_time`='1508242964',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15490 ) [ RunTime:0.000592s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/c/3/c3e389ca06469b03330465f5c18aee1b.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwtDCEBpedETT7K-GEb0HsDc',`nickname`='伟仔',`sex`='1',`city`='广州',`province`='广东',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpAE8qdQHI7FSQHQOjd6a8cxmCzDpoicY7bKdc55LPjedhC9z1G39VW7uibsf03okrHickxxlnGicibY4EiaeKo9Nz4y5t/0',`subscribe_time`='1508230816',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15489 ) [ RunTime:0.000713s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/8/3/83b1221d6b359758aa54e2292fdaf106.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwqymCGpH9lAxliVJXZdeJsQ',`nickname`='水晶铃',`sex`='2',`city`='',`province`='维也纳',`headimgurl`='http://wx.qlogo.cn/mmopen/PiajxSqBRaEJ3KK6gO8gD9n1ChtSBSVVwiaXVUIfVVEoqUasx033hUq14HjN1h2ic6H6LYibM9LsluBvZ0loSfW38Q/0',`subscribe_time`='1508246136',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 15488 ) [ RunTime:0.001125s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/6/1/615630dec6026e98410dead641e891e7.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwk7-i0wV9G_6bbMEzb6Im1w',`nickname`='bluerain',`sex`='1',`city`='渝中',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpDAreLEImBu4R2iaysicib9KOJRKZJqVtXw2SibqeMFVUeQq85UoAOgSKAFdibqEk2mia5mG5aq7hNdBfXTrClHv6ian9ic/0',`subscribe_time`='1485674506',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13487 ) [ RunTime:0.000397s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pigcms_wechat_group_list` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `subscribe_time` = 0 ) LIMIT 1   [ RunTime:0.027079s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-15.226264s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001110s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-15.227463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009329s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-15.236810s ]
+INFO: Run TokenBuild Behavior [ RunTime:-15.237213s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-15.237743s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-15.238396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002116s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-15.238986s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2017-10-18T17:47:45+08:00 ] 127.0.0.1 /index.php?g=User&m=Wechat_group&a=send_info
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.004390s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.004091s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.004575s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.005252s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000276s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000262s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined property: stdClass::$errmsg G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 322 行.
+SQL: SHOW COLUMNS FROM `pigcms_wechat_group_list` [ RunTime:0.004245s ]
+SQL: SELECT `openid`,`id` FROM `pigcms_wechat_group_list` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `subscribe_time` = 0 ) ORDER BY id desc LIMIT 20   [ RunTime:0.013692s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/0/a/0ac485695994a3f0a056b361839a1410.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: SHOW COLUMNS FROM `pigcms_wechat_group_list` [ RunTime:0.004376s ]
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwmHcs9mkz_nSicJfhOzz9h8',`nickname`='野子',`sex`='2',`city`='渝中',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpCgcAFyIzV8NyW1RYPGZHEAbzcSTBz81U08mXlnryfKGmNzOblr4vNFmo7QzuJibmesiahORXtGDcGJH6R0wKOSVC/0',`subscribe_time`='1473597700',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13486 ) [ RunTime:0.000308s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/2/0/20f830f889f915ab626f6a261e780aa8.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwpA7VTsresLaxUfVViKzFCU',`nickname`='听雨',`sex`='2',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LTulcVfGOaEVLUxDU6TkYaNoEuVV4FtY96oNLk1pAiaLfn3InnfhNGl7nwaR1DBqLrmrYPoDTiatb0k2BhUlKHTG2/0',`subscribe_time`='1507378340',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13485 ) [ RunTime:0.000391s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/c/1/c1afbd2c0c4cee981cded3e52407b0e5.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwnidpn1B3U-f2GGO9WLR_ps',`nickname`='冷雪娜妈妈',`sex`='0',`city`='',`province`='',`headimgurl`='http://wx.qlogo.cn/mmopen/icrbZ0LwArwXtic9gElBwPuBzOMicfmx2pox97ibXfxajOcPVqhia6cG19DV30OvO6Zyzys08FrWkp64FLibliaicibkia7KnWKpWNSsqs/0',`subscribe_time`='1486643901',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13484 ) [ RunTime:0.000837s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/8/0/80665ced55cee5ad9f859c48dc0cf523.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwl5Nc3WjVcJhpuROhtA0EoU',`nickname`='明天会更好！',`sex`='1',`city`='南岸',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LSpwckBEH40lEuhMs3jJmTSZDib3cS1qriaGptEPV4x7b6vz4xJsgtFsWkpFiaoHqe0c22tq87ibjLOV6Sn9tY68hFl/0',`subscribe_time`='1503714650',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13483 ) [ RunTime:0.001115s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/3/4/34b60fc2de797231fc9f9190d23fd3a0.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwt6VfPTbYUGdZLOXeQSJktQ',`nickname`='重庆天朗周霞',`sex`='2',`city`='铜梁',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/icrbZ0LwArwUMz3UBAbyibicbmEgEz5oUdibgxic0LE6g1oOhy0iaxOn1DDiap5BhMQXPtd8J3ibfOdyVETnsru7icfqsx5NFSRCXgWBp/0',`subscribe_time`='1507627303',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13482 ) [ RunTime:0.001089s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/a/6/a68a5d505027a9af49d82d04c0fc744b.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwo61EiZeFTKbK8mk9mrKNKk',`nickname`='trouble🎉',`sex`='2',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LTkx36U3YOEria6rAK0Bic87icUJbv7qo6vImpr2odWZibM7B7lbEgRgwOzrYXygsxk0o1mSwbOEP6TR3L6mLiasfT7g/0',`subscribe_time`='1487498232',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13481 ) [ RunTime:0.000382s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/c/5/c5a00994bf0a8b84fbc98b666516852f.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwk7M8V3qut9x8zDu5hxK-JY',`nickname`='霞妹儿',`sex`='2',`city`='',`province`='',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LRFAYEN1LhhaOX99a02XxAyE6kVwaURAgXlKm9iciaj1A6RhQw0SqQ8ksHPsXS4ErVY1AOen9QqZ22c4jmGia1ahDE/0',`subscribe_time`='1470572925',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13480 ) [ RunTime:0.000362s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/2/3/23747cdbcea2b71ecc9d55bc339f0aca.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwkA-0sVgfj8E0YzvYtNoq-k',`nickname`='苏纯',`sex`='2',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LQiaRaPYcAF46KiaWrNib1UuuQh8icduJkpMTYOmibH3sGsRTmdq0fPF6Vj10AnuExRtrPoQyTnPveP1mia1fIEgriawAh/0',`subscribe_time`='1495266714',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13479 ) [ RunTime:0.000378s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/1/1/11f8019d40aa4c05149cf0c23c90ada4.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwqZV0peKLU2q97jJEn8Ub88',`nickname`='把心给你',`sex`='1',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpAHj5UhjMInicia9sG84Z1oKuaibXwRiaBe4WH8dI7oUulrFzT9Fo9ofUBg3BibXqtGj6MaqxTOXasEQg0X3RbpOdota/0',`subscribe_time`='1503750823',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13478 ) [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/6/2/62d9ba9cced2462f6daee7b6bbc503d5.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwsm-Nm4pzuLUGtcBVSobWro',`nickname`='众人皆醒我独醉',`sex`='1',`city`='深圳',`province`='广东',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpDic4QQClbjg0iaTGQco3OzibGDADf5YEmpBEfHicq6L7kUNfCrvtGgQefSWKP9AKFsHicLVgB6R3zicuFMnPgTLP25yN/0',`subscribe_time`='1471781679',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13477 ) [ RunTime:0.000392s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/5/d/5d68c80775e86b2d4bb31b58145b5800.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwrwt-4F3oIPpfESueILAkxw',`nickname`='葡萄',`sex`='2',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpDic4QQClbjg0ur5UpGIjnWDYpfibSVttj286U1JYG5fVmib2cq3AnZ2biaxHwPZ81cw8PZBFfMlbuakziap2qgjLfp9/0',`subscribe_time`='1506155162',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13476 ) [ RunTime:0.000389s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/5/b/5bd05cfc80329f683fc36f50925a9ac8.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwuqUJbEeW4wVS7gZTQQ6Qlk',`nickname`='四大皆空',`sex`='1',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpBDqL99x10EgkuMhJSUibOmZFViaK0gbXStb5RzAnvYrTjNw2wG0k07Aqxk7WdQv2Svibc82kLpkwLUXFEDdHuw1Wh/0',`subscribe_time`='1489754872',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13475 ) [ RunTime:0.000368s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/d/5/d572c356485816a8ae549a416f3e87b9.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwjVQyOm4fQpELzeeZdP6vGM',`nickname`='牙齿晒 太阳',`sex`='1',`city`='',`province`='新疆',`headimgurl`='',`subscribe_time`='1494389403',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13474 ) [ RunTime:0.001093s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/0/2/02ed56a8f1799cd7648f8514c5360b14.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwlzf7nLhXyysnc0Z7yL0UO4',`nickname`='玲玲',`sex`='2',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpAcZdCOWGQAxy5hfkU7VJKVvrAep3660jwJ1AG9lgWhicbYe5ktqtK4uaX48DTP0HpqNdKE4cGmr1mlGXbe11O3I/0',`subscribe_time`='1470487259',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13473 ) [ RunTime:0.001139s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/d/7/d7b4b6499e549f9c5c29ebb58b54f35a.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwuG_oeDQAZqhoQKj4XFyLlo',`nickname`='何庆',`sex`='2',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/NibodXBuSrwiaL8v7KlJtJAhic96v2muYeX7A7jlHicZW2B6K3qT2FwampRJCQhGKmjsr60ic4YMDibAVrEnTsonLXXTibiaiaRDiaHOsY/0',`subscribe_time`='1480150529',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13472 ) [ RunTime:0.000687s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/f/c/fcb79c4d02a0791ebbcb2f22806953f1.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwrXTxLXCaHqmzjBiTMSmiis',`nickname`='达琴',`sex`='2',`city`='沙坪坝',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/NibodXBuSrwiaL8v7KlJtJAjf8js08j2VmiaIJ7iafFYAbvIR6bj4XtxCyUnQwU1wBttrk2FibhbySdGJFEpicic1lx1MCmqTkPMdmc/0',`subscribe_time`='1495347282',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13471 ) [ RunTime:0.001117s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/6/a/6a1b616166e12db5e61ed3b3f419849a.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwkb8fpK4PEWSmnLIP0uRbyY',`nickname`='玲玲',`sex`='2',`city`='',`province`='',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LScImwRQNb1cjia6ibBMSEPyhYfq97iaLDwsyibKj7NuiaSNGq9mAjL1GWf6wJlYibwyKFa0CmFs09zUXI8DMYkvggHXI/0',`subscribe_time`='1478926789',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13470 ) [ RunTime:0.001118s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/6/e/6e655f125bf4a5f4d139fa024d54c51a.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwn6zxP3xSv5tas6Im3-zitQ',`nickname`='Mercy苜蓿',`sex`='2',`city`='',`province`='',`headimgurl`='http://wx.qlogo.cn/mmopen/K6CEv0Hv9DdolkYFQPQ7cicZJdYnJy81rjVdGHUVBMQ0mjPItZy7MEWZtiaIucapjSdZ5ywKG1SXibyollibNIic2kgbvXDMZibyfW/0',`subscribe_time`='1506830653',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13469 ) [ RunTime:0.001081s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/6/9/6989d9024b27f0361d7f8433f9daa6b6.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwgIxQa_4WWP4CQGPHE0_L94',`nickname`='     ',`sex`='2',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/K6CEv0Hv9Dc4SgByXyQrmjfFwhh20CE04FAapMfephzib7ibgpfZ5mV9dzKI9ABE82DUtO3mIP2jfj3O33Fyz2vUsicnlkiaWsD3/0',`subscribe_time`='1472469650',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13468 ) [ RunTime:0.000431s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/f/c/fca28c3a7e8d061a1b675bb42b913219.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwtIV6N7sPEizefcQZONG9ls',`nickname`='三哥',`sex`='1',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LQMqPslniauquuQewKGxpicXq0A3twkvwgJaHGAkgT6SicRzicFtic2icYBtLmxPm5R4xwQ4ibxWgJ71Y5csgel85VHUZw/0',`subscribe_time`='1480766471',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13467 ) [ RunTime:0.000395s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pigcms_wechat_group_list` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `subscribe_time` = 0 ) LIMIT 1   [ RunTime:0.011325s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-14.883670s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000462s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-14.884160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005013s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-14.889198s ]
+INFO: Run TokenBuild Behavior [ RunTime:-14.889452s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-14.889712s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-14.889942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001053s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-14.890288s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-10-18T17:48:01+08:00 ] 127.0.0.1 /index.php?g=User&m=Wechat_group&a=send_info
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.012588s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.010418s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.007675s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.006412s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000448s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000531s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined property: stdClass::$errmsg G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 322 行.
+SQL: SHOW COLUMNS FROM `pigcms_wechat_group_list` [ RunTime:0.012516s ]
+SQL: SELECT `openid`,`id` FROM `pigcms_wechat_group_list` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `subscribe_time` = 0 ) ORDER BY id desc LIMIT 20   [ RunTime:0.031424s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/0/7/0752c0e12ca72a4502cce8056fddf86b.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: SHOW COLUMNS FROM `pigcms_wechat_group_list` [ RunTime:0.003837s ]
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwlO8UB_pycErjppiLhOO6F0',`nickname`='老蒋',`sex`='1',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/NibodXBuSrwiaL8v7KlJtJAvE8RIhtvHudcibBfTZibjT2Qh1WwIWTMP6iarPWzIeALzHaL9zicUEdHvBl2p5lSWySSy8qI9HMvJAC/0',`subscribe_time`='1477140197',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13466 ) [ RunTime:0.000313s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/f/a/fa7c5285015e80e705623088e22e4a74.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwtU_IrIYgGhoDPgnsPHrk4Q',`nickname`='乖小兔',`sex`='2',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/icrbZ0LwArwVTnLP4LtlvLpFBrAPbj5HEibzMZ1JpHssGoCfTV0QnibT30rBVXRm1Yr1MxrLp5sZKl0xIJLpzgrhbEUwYAE0wjI/0',`subscribe_time`='1470534973',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13465 ) [ RunTime:0.000380s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/0/b/0b64e60bd68dab3c144046a1920aced3.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwnyTt6ooGWy1cT_AWmHE8gg',`nickname`='流浪的蚂蚁',`sex`='1',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpCtHUQ4AWMmP8eVX8MibwuvQlIer2hf5K0fibTKjyKccLXFiaHIClcib6KUzQhh9hfxVeRLycqxdCGYqN5PEWQkJWg2/0',`subscribe_time`='1496664162',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13464 ) [ RunTime:0.000370s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/a/9/a9ae845759ed42adda14e4b9ace2614b.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwtvs_47Sb6INss_eNnaLT9I',`nickname`='玲',`sex`='2',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LSejndAV0rr00U0TTMPfMCYdQLkyglbCRjiaK2BBH9rQ3KfleP3wNibHkJgSavurS9zOc568ia2IfPQIxGn2tBhHf2/0',`subscribe_time`='1475134648',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13463 ) [ RunTime:0.000925s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/f/5/f510fbbe1f7e56151101b2bb03040655.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwt5kNf1G65YMQkZnAhcBovQ',`nickname`='火山',`sex`='1',`city`='南岸',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/pWmFBFFyErICcuJWicuTRMUdWmt6WAjiaCS8ZRQQwou154JuhYXmC7UqgWlh3mhp1Ffft7RsQOgrd0R3EzOiaRon2CUKL1x8qY6/0',`subscribe_time`='1480424262',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13462 ) [ RunTime:0.000941s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/3/1/3183c57c40d5f5babb1b6f4047dbe15c.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwn2Pfuw3KD_gW-Pl3bLQcho',`nickname`='駱駝刺',`sex`='2',`city`='沙坪坝',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/YEpmmwpxleMncGZwGhzOcB6WW7ooWfjcwyxM260JsO6rADy3ia8csEYIxIubrlukDIKugOW8J1lCquuiaHPrgje9rricesqaKeM/0',`subscribe_time`='1493121972',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13461 ) [ RunTime:0.000950s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/3/0/30375a27261b6206bd38ff821ae35234.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwkEJXdrg-4J_Wg0ODoow7kc',`nickname`='何静',`sex`='2',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpBMiciav16j8kiaW9xbpD8hLellkwOvs2YJ8tu9cCcQPLgkEkic3ibruZLfZRN2xibRzWfYBoR5nV5BDqaOA6yC9c1K8K/0',`subscribe_time`='1492245852',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13460 ) [ RunTime:0.000894s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/8/1/810b268ecc45c5dff3a056a5772ca2c2.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwkjdTKpEgC3wnblllCVfpQM',`nickname`='KQQ',`sex`='2',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/s2otPve0fYwUSa3RYjhzIbm2CuG6sTf47ONJBWLSFL8acNGAhAeictibSF1kcddZvhTsaYH4Y4csiaeK4YQS2rcgU1RyeEC2YTc/0',`subscribe_time`='1487151204',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13459 ) [ RunTime:0.000905s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/a/a/aaa6ba829eee11d4ac3a41bb21acc6ab.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwjgf6j8ShL9XenV7quRmXo8',`nickname`='理解',`sex`='2',`city`='',`province`='',`headimgurl`='http://wx.qlogo.cn/mmopen/NibodXBuSrwiaL8v7KlJtJApA2OzkElI9d9nkcaOqfEMichnYuEEicn6nkNEMjesGLMKykQCyebp95IO4flkFEYMsqHs4shCozkK/0',`subscribe_time`='1492343624',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13458 ) [ RunTime:0.000409s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/e/8/e89fc8704c42cc5772358ae7b2c42073.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwgZgtjF5mgLzYYv1qLRpzoE',`nickname`='罗意',`sex`='1',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LTSgnJicnc9Uult6hvp8qUaB6IEGViab0k4ibLsh6VrOP1ZZ3Gn9rQictOsibXHiblOVTrNjg7xTYS1s9v6FnQdcuUaBZ/0',`subscribe_time`='1477461451',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13457 ) [ RunTime:0.000463s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/9/c/9c427fbb7889ee2be7691ecf81105f4a.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwvDxCq16IFFqNtdCgR_QAt0',`nickname`='🌺简爱👑',`sex`='2',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpDic4QQClbjg0osTxKRpTUlVv3l790HVx8iajrGcgmKO8VUicMbSocmm53pf9nGLmt4ET628mZV7GQqJMFE8cywcgr/0',`subscribe_time`='1481370959',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13456 ) [ RunTime:0.000374s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/a/6/a6e815508ea0ccd6dd6184278f273651.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwm8pRuNC-Le_ENrtjZ7CMK0',`nickname`='易生方华伟¹⁸⁵²³³⁶⁸⁶¹⁸',`sex`='1',`city`='大足',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/icrbZ0LwArwW7uRHgpFLKV4eQbD7zCnMVvDaK9cJYRseffrCrGHbIVWPtyK8wFBduta5Hia4cf1lvW1kzSE2BohqVJiaaYVhwVB/0',`subscribe_time`='1506761825',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13455 ) [ RunTime:0.001115s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/3/e/3e746887d22d6b0925ab265df078ccc1.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwrMkCmMBiVQXZk-iiJVNtx0',`nickname`='善缘',`sex`='2',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/icrbZ0LwArwVty55UsSkLHIdDTujCwx05gxQ5LfsM3QSP2PLOC7dnriblo1ZlOfGEbARHMAbRFwGKUiczbaH1S1u8Z33Ae4jQCx/0',`subscribe_time`='1470487469',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13454 ) [ RunTime:0.001118s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/4/c/4ca43941d54fed12a5ff8bc217233298.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwutundpdaWrjEMB0Q7WHziw',`nickname`='  我是个严肃的小护士',`sex`='2',`city`='',`province`='',`headimgurl`='http://wx.qlogo.cn/mmopen/K6CEv0Hv9DdAfCC03koovc6dYEswIBxYjNNReoNSXcq9LsfwvP2uHuz45kKyqDfJ1FcrVOkHFMbUxKDKAVBgVOQVicFXeG9dA/0',`subscribe_time`='1507097044',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13453 ) [ RunTime:0.001130s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/c/9/c92d6199edda11297c7b023afbf5a132.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwpgKGIxT7YE9pY02zxctYc0',`nickname`='LiDan',`sex`='2',`city`='',`province`='',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpAaZqhLuh7Le1dicxY0eW4HBnXWawk3BCF1z40BPdJa2OnrhibreWVse3K28AWGK2Hl1XSI3IOnvUDNiaaVWma74eG/0',`subscribe_time`='1478065922',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13452 ) [ RunTime:0.001107s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/4/8/4864a03caf911cc7e3218337ff1198e2.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwpw9BPFQNNIn5mePekMzVp0',`nickname`='小柯',`sex`='2',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpA0xG7YFKzPKhULsuevBvVXHbUyvTEMSOIQHwVvGvcHe5lvTY8glrNLeUSp3rImCU6g5PDFMskInrU6vVraTVmt/0',`subscribe_time`='1482498893',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13451 ) [ RunTime:0.000372s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/a/c/ac6606257a3d441f14261c39bfe98286.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwj-2UBcrikqBVSfTelhjjns',`nickname`='伊林',`sex`='2',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpDUHBW0HfSll94QGMrsVssVAh12AIqdRUWpVFpQDB1mRd9Zj8L8ptklol4ced88m0srurvMSqebgS9tDa9OmeaV/0',`subscribe_time`='1472988210',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13450 ) [ RunTime:0.000657s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/5/0/50c0bdd0e82241cf9a678f531bc3ee12.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwjZ8t4Xi85tcVaX4Z60hp8k',`nickname`='迷路的指南针',`sex`='2',`city`='',`province`='北京',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LR5yNOgGtiaEMKyRHIibPc8kKgps0dGib1icDdHwShxI9MMHwAMT8biaZhbwIUnN8yPkk2AValwzxp6oRzhrs0Xoa2s3/0',`subscribe_time`='1476590607',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13449 ) [ RunTime:0.001160s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/7/7/77529d8400f14d5af79098710f8ec119.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwpfXsYGN0ON0523pEY27Ykk',`nickname`='IDO',`sex`='1',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpAwsUHNwhORR4icpibic9ZyIo7vMLqbUIz1ibRWUTPmPBrcVxDuCtGvhS2RFVkCk7zdyy7jq4S18pkvUzb4vJhtyfJs/0',`subscribe_time`='1481526687',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13448 ) [ RunTime:0.000369s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/8/c/8c4cd6c9b0abe6385b86705091c4c72f.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwqzyzpkkb5ujyZ8dJV-K_uo',`nickname`='ZLG',`sex`='1',`city`='永川',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/icrbZ0LwArwU0vlVhibuNT5Ssf9IW5ZfzA5OQoplX8z28n0flibd70iaCU6e0QdLGApjBBG7afYE9Dm5MqLUB7p4hiaNJJELMb32r/0',`subscribe_time`='1493551238',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13447 ) [ RunTime:0.000794s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pigcms_wechat_group_list` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `subscribe_time` = 0 ) LIMIT 1   [ RunTime:0.023529s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-14.964014s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000778s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-14.964849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006373s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-14.971244s ]
+INFO: Run TokenBuild Behavior [ RunTime:-14.971591s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-14.972032s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-14.972303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001481s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-14.972777s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-10-18T17:48:18+08:00 ] 127.0.0.1 /index.php?g=User&m=Wechat_group&a=send_info&token=luzdzh1508224426
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.007663s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.009914s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.008892s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.007734s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000425s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000385s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined property: stdClass::$errmsg G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 322 行.
+SQL: SHOW COLUMNS FROM `pigcms_wechat_group_list` [ RunTime:0.006244s ]
+SQL: SELECT `openid`,`id` FROM `pigcms_wechat_group_list` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `subscribe_time` = 0 ) ORDER BY id desc LIMIT 20   [ RunTime:0.021528s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/c/a/caa0444dbaede1d07ea52d61df2b0d04.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: SHOW COLUMNS FROM `pigcms_wechat_group_list` [ RunTime:0.003844s ]
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwu3_UZfi3Qvs6SaCjLOl1kg',`nickname`='Demi',`sex`='0',`city`='',`province`='',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LR64ux5yrlIxqcMhxVCvmUUFfu1sY5SPcb3c2qzkK6fWZzo2bqNT4ORNjSyMs7J4HiaOSSV7fNs2mOwibh4W3Cz2G/0',`subscribe_time`='1497692290',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13446 ) [ RunTime:0.000329s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/8/1/81e2cbcf73244004164e215ded06c5fe.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwvAK5FR4AsKfd7IakggzKAs',`nickname`='浩哥',`sex`='1',`city`='',`province`='四川',`headimgurl`='',`subscribe_time`='1502364630',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13445 ) [ RunTime:0.000535s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/2/6/263c7183e65688aa3d77fc75a075051d.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIws5EIF54_JVbo4aLh3vPe_Y',`nickname`='浩男',`sex`='1',`city`='',`province`='',`headimgurl`='http://wx.qlogo.cn/mmopen/K6CEv0Hv9Dfk87VbnOzM8WHIWAXEuwcFJcx79qiaMSf2jEIJPMu6LWnaJrJqrofudpa31RjQU0HOtawFC6eqP3fqNWwPxvkVX/0',`subscribe_time`='1499328657',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13444 ) [ RunTime:0.000394s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/2/a/2abf24c546f0c3129440e4aa168b8ed9.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwvymxUHXgEiY6nTeH6jdb-0',`nickname`='顺其自然No.1',`sex`='2',`city`='',`province`='氹仔',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LTulcVfGOaEVGYAl5EFUTk1Tdd0MXQrB0IH3qc2apDkK9cR6Pb1Xr5QX1WRtEeDiblFLfWZYbuLBH25sWMia20aEY/0',`subscribe_time`='1474809049',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13443 ) [ RunTime:0.000377s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/9/9/99e052ec728409b7bc5a994885fac1c9.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwl2CHW4r_liVWN2epnCgElI',`nickname`='容儿',`sex`='2',`city`='',`province`='九龙城区',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LQvC8NTfUSmn0wrT4wcBlfTr4otEPCLaDIpaNZQxL6Qw60HXJwxzyUqeTanpdeic5Z7LVZSDuQcvXKawNmwHwZBib/0',`subscribe_time`='1508034071',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13442 ) [ RunTime:0.000386s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/4/6/466ba9dcd034b7a57fe2c78596fdcf5c.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwtbPlUlsIyFzcSKERfIKv3A',`nickname`='璧山小波汽修13996409955',`sex`='1',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/K6CEv0Hv9DfVv2y1jKvdiaFSSbwwYaa1keAeT13gLT7oaDCMSGfS3WdEukmryb1bU3w17qo6OvPCWHagibCJwj2ISJouO4wRwI/0',`subscribe_time`='1488024769',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13441 ) [ RunTime:0.000378s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/d/c/dce6787e59aa7766e54190e13388e2d6.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwqBsF4s-VvA8vUSExuQ-hSs',`nickname`='alice',`sex`='2',`city`='江北',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LQc3uT7qjFsqHTPiazwb8MWCdicgB3SiczSVGT5ayCPxejjmypc6fch6IApCSb1qzdlsMSsON2uVsGtFfXlTqyBoZ5/0',`subscribe_time`='1490872672',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13440 ) [ RunTime:0.000390s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/4/4/4462cf65fa53d22f4efca19aa363159b.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwu0f5bHNBppklnKL45GEk_I',`nickname`='兰子',`sex`='2',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/6L8zW89sZFQX6NIwrWtpWSLysOWoO0yMHKYAgT9IkEibXtN6IoYLaoyV3vQy2k1kZIqEicbBiapWnJURQ2ogDQW6sa3SwbiaSBp4/0',`subscribe_time`='1476958142',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13439 ) [ RunTime:0.000374s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/c/5/c52a4667fa19bcf743333f79a1be59e8.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwrn2AVC_Op6QJXHDTPgUbUw',`nickname`='邓晓霞~',`sex`='2',`city`='德阳',`province`='四川',`headimgurl`='http://wx.qlogo.cn/mmopen/icrbZ0LwArwWfUzfNhXA2L2sgMmhhs1SaGJUOEhmB1oRANiaSVf7rHoHRLia1Crcv3hphficncGDPBgGZEgvBFIxZ1WQicEvLHCgm/0',`subscribe_time`='1491207296',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13438 ) [ RunTime:0.000375s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/6/3/633bb8615d1f43f37158b463781b6c22.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwr8OwwfeD9fN960t0oQ957w',`nickname`='乔方',`sex`='0',`city`='',`province`='',`headimgurl`='http://wx.qlogo.cn/mmopen/0cv1klicQVpB20ZdkNZQclYWY6DpxQXd8WpgVTGxYiaj8arXWnmsliaQkO9nCS69CJzNbuMiciatoERCV5hnef52sKMLx3F6fosc0/0',`subscribe_time`='1488003494',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13437 ) [ RunTime:0.000584s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/6/c/6cae27e7616f281d53d4d69b6c8ec5ea.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwiZEPpLnxKQivrLPB2VSv0k',`nickname`='杨小宁',`sex`='1',`city`='',`province`='',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LTulcVfGOaEVItrqDJNEtqBLL7GdDS1Zib6Z4D0dwDia3kRnRJvpajcdtWEQQJPHhIBtjlLxhZQDCgibuMJCsvkzibV/0',`subscribe_time`='1476706587',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13436 ) [ RunTime:0.000376s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/d/0/d06f30aecf4dde838b592875042112de.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwszOheBlBeDqUH07tUmX3pM',`nickname`='许洪刚',`sex`='1',`city`='北碚',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/9uaDiapKD2LQGdBytwrfAVVGhiabWnicib9K5t40MTbF88wfJJB5HHATjAuHYiaheJTES38H6fen1cCOoxicHWKY2VhJXQKhNYDj1r/0',`subscribe_time`='1500209501',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13435 ) [ RunTime:0.000818s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/f/4/f4af997591a257bb902207759c84e19b.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwqZ12J9loXpfyPF38sXmeos',`nickname`='喧嚣的寂静',`sex`='2',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/icrbZ0LwArwWcOFR6jQnB0sZ75UP1ibDpBMz8FDRJXNRO2FbzRQay9O5N6ZYC3RHEBPOVWSnMBI7Je3MKSDssWX3G0g5Iu5I0z/0',`subscribe_time`='1504837872',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13434 ) [ RunTime:0.000633s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/d/a/da44103b1c4cc699d2fbe8f46f176c45.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwjiIiddxZqsuaB85BB11Ew4',`nickname`='陈娟',`sex`='2',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/K6CEv0Hv9Dfk87VbnOzM8Wiaw7kbsyCiaS4IsF5YB1bibKvKRrMQaGaB1ZvqkRicV8xSw4Oebn0jFIpFnGDvnBqo1MEzWjzkUF7a/0',`subscribe_time`='1481715120',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13433 ) [ RunTime:0.000740s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/e/a/ea6dc6df99fac82db95cee09b3627bb2.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwgW4tc5JWLX62iUrCtjEpVg',`nickname`='清新子',`sex`='1',`city`='渝北',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/K6CEv0Hv9DcWx4oclRDTmpbpU7xYYDRfeA2wfVOw1ylmDsHdfibS9ImCBq4GDhZbul4XFqSWpnvQH5BHC9vSuRJUGeFoVC2tG/0',`subscribe_time`='1493538260',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13432 ) [ RunTime:0.000730s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/a/b/abb5a07773b904e5768e79f995d313ee.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwmaq-UupHc72-21dVUKEV6w',`nickname`='🌹刘柏义🌹',`sex`='1',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/Q3auHgzwzM4hj1KCyuliciazQcicbPQ8QAkEV0iaDGibiblvEXoqUXcFibWqbmEk0eCDmMbTbNU82WFohsic42AyB2gLOZfRZKpAR6uW1J1iao8ZMXm0/0',`subscribe_time`='1503539667',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13431 ) [ RunTime:0.000510s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/6/8/684d4ef47741fa6ef0db7e38298bb5ce.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwlSu5gJ9tf1UUANkqjPKWw0',`nickname`='听风祁凡',`sex`='1',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/icrbZ0LwArwXfIaEkYicdLKKPicPJAl2GWSPLQ3ab57LVmJ2icf6RW7tiaNszRyWUWHQIhRKVtoricD7fMKX1aOgTk2JeHBDPBEeCu/0',`subscribe_time`='1494921743',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13430 ) [ RunTime:0.000524s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/b/9/b907c3318569c67cfceafb05e78f060e.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwsvs5b8hLMXbnE0Ctbo8q3I',`nickname`='周桂英🍃',`sex`='2',`city`='',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/icrbZ0LwArwU0vlVhibuNT5QZUjAwLmVbEBbZTO84ib8h2mSFDic0qYibs2c6Un99ibGHoDwhaeZfR72sBiaMjXF1aUINcpF0iaiaVx76/0',`subscribe_time`='1504675048',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13429 ) [ RunTime:0.001088s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/2/c/2c760528167c6160952d5137805293b4.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwhVOsfvvtk0A2rkVuQjdNwU',`nickname`='张膑',`sex`='1',`city`='江北',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/Pr6QZniat6iaia8bOkFVzzmTl1zX9xoItyWWNpITKDXXVa9yV9V31QxFI0ZF6u2MZ4M9PzQrRMPmULAiaXUsdibeErkomWO0H81iaY/0',`subscribe_time`='1491981787',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13428 ) [ RunTime:0.001132s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] unlink(./Conf/logs/Temp/f/8/f85a029b84f54d53a24c8876ccabdec7.php): No such file or directory G:\demo\pigcms\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined variable: json G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 177 行.
+SQL: UPDATE `pigcms_wechat_group_list` SET `openid`='ogwwIwhjCgCrNY2a0nMm1DcDahd4',`nickname`='不懂珍惜，不配拥有。',`sex`='1',`city`='璧山',`province`='重庆',`headimgurl`='http://wx.qlogo.cn/mmopen/Q3auHgzwzM6kdBnccqR1HvgmtUxjjoWZyQ5ic6IthfWVXYndljfVfsEcIDmP9ibvGWo7ddjsFcdmKhoyiaHgZlKiacJt7iaYpO5MBsbYbjNYk4PA/0',`subscribe_time`='1479640244',`token`='luzdzh1508224426',`g_id`='' WHERE ( `id` = 13427 ) [ RunTime:0.000827s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pigcms_wechat_group_list` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `subscribe_time` = 0 ) LIMIT 1   [ RunTime:0.013641s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-14.871511s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000475s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-14.872019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005902s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-14.877954s ]
+INFO: Run TokenBuild Behavior [ RunTime:-14.878278s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-14.878637s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-14.878896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001330s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-14.879329s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-10-18T17:48:19+08:00 ] 127.0.0.1 /index.php?g=User&m=Wechat_group&a=showExternalPic&url=http://wx.qlogo.cn/mmopen/icrbZ0LwArwWsAzVkXJxZeQPgrAN7ubNgvibYiaJrzOBIfn1whO1rdt7FYByzrhibfqCrZRfsytGTGhaaXgBMxwXaV5rOFH71KLb/0&token=luzdzh1508224426&wecha_id=ogwwIwpBJUgnP0fBywTHb9siGM24
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.003827s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.003659s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.004425s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.003469s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000267s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000275s ]
+
+[ 2017-10-18T17:48:20+08:00 ] 127.0.0.1 /index.php?g=User&m=Wechat_group&a=showExternalPic&url=http://wx.qlogo.cn/mmopen/0cv1klicQVpDqDubriaGhS0nnd39wNnLkFN3FoIANdyFk0JBBpwVIFsoAVicHoibrCu0aDco4KCibKnUeDjYR0QVvmYFmOlZowj3o/0&token=luzdzh1508224426&wecha_id=ogwwIwrG3_u8jzlfOL3OtwWHI2eY
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.003902s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.003755s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.004559s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.003855s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000356s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000448s ]
+
+[ 2017-10-18T17:48:21+08:00 ] 127.0.0.1 /index.php?g=User&m=Wechat_group&a=showExternalPic&url=http://wx.qlogo.cn/mmopen/94hW4BkLV5E2tRtdERKPtib4QGoLRJFEPmdYT6a4OpicwqdvicaY1oac7XlcHKfkjwjiczQheTOia2qzV56b8Gx0DVxstCM5BQhJic/0&token=luzdzh1508224426&wecha_id=ogwwIwq2fe160SqsrKPgBWZT7bHo
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.008485s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.008558s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.006888s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.004598s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000335s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000383s ]
+
+[ 2017-10-18T17:48:22+08:00 ] 127.0.0.1 /index.php?g=User&m=Wechat_group&a=showExternalPic&url=http://wx.qlogo.cn/mmopen/9uaDiapKD2LTibTqr2jnibwJKWH0qmZGBqbqVCztJSh9M8iavgk2XokHGz2LibIfEyknoU07eic9dBwH8TtIKvsdGJHBGcWuA7aejH/0&token=luzdzh1508224426&wecha_id=ogwwIwuuVHmVvVe35BPSuMEkq39Q
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.004946s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.004875s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.005004s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.039466s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000369s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000393s ]
+
+[ 2017-10-18T17:48:23+08:00 ] 127.0.0.1 /index.php?g=User&m=Wechat_group&a=showExternalPic&url=http://wx.qlogo.cn/mmopen/0cv1klicQVpDrSp8jw88ms4hXwQVj0E39Q5xVTlGQk2GAc2v9Rzbu3LZVlvryHw03tEjJGllRfUVn6hkkjm0estibIiat0iaUFBV/0&token=luzdzh1508224426&wecha_id=ogwwIwhehFptKzMnb0xV5DMd8NQs
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.005180s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.004999s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.005815s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.005271s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000359s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000382s ]
+
+[ 2017-10-18T17:48:25+08:00 ] 127.0.0.1 /index.php?g=User&m=Wechat_group&a=showExternalPic&url=http://wx.qlogo.cn/mmopen/9uaDiapKD2LQguBeG4DT2OY1GoZHhCDavibeiboytLicAkqOA0fB54YkxkrnicSqLPs6d62iafRXRKYtCzD674j1MXkFTE0qO3J6zP/0&token=luzdzh1508224426&wecha_id=ogwwIwsxKC0Q7K-x7RAsx0XhWfVU
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.007280s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.007106s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.007419s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.006423s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000474s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000537s ]
+
+[ 2017-10-18T17:48:26+08:00 ] 127.0.0.1 /index.php?g=User&m=Message&a=index&token=luzdzh1508224426
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.013207s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.013204s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.014766s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.008230s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000602s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000668s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `pigcms_function` [ RunTime:0.007414s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `funname` = 'message' ) LIMIT 1   [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `pigcms_wechat_group` [ RunTime:0.008137s ]
+SQL: SELECT * FROM `pigcms_wechat_group` WHERE ( `token` = 'luzdzh1508224426' ) ORDER BY id ASC  [ RunTime:0.000639s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-14.210595s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001794s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 124 行.
+NOTIC: [8] Undefined index: exceptCondition G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined variable: info G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 344 行.
+NOTIC: [8] Undefined variable: alert G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 963 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-14.212466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033868s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-14.246363s ]
+INFO: Run TokenBuild Behavior [ RunTime:-14.247078s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-14.247765s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-14.248216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002544s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-14.248984s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2017-10-18T17:48:27+08:00 ] 127.0.0.1 /index.php?g=User&m=Message&a=index&token=luzdzh1508224426
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.019635s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.003991s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.003993s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.003454s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000284s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `pigcms_function` [ RunTime:0.003403s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `funname` = 'message' ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `pigcms_wechat_group` [ RunTime:0.003973s ]
+SQL: SELECT * FROM `pigcms_wechat_group` WHERE ( `token` = 'luzdzh1508224426' ) ORDER BY id ASC  [ RunTime:0.000282s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-5.992178s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000837s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 124 行.
+NOTIC: [8] Undefined index: exceptCondition G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined variable: info G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 344 行.
+NOTIC: [8] Undefined variable: alert G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 963 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-5.993050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014592s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-6.007688s ]
+INFO: Run TokenBuild Behavior [ RunTime:-6.008153s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-6.008592s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-6.008973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001775s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-6.009510s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-10-18T17:48:30+08:00 ] 127.0.0.1 /index.php?g=User&m=Message&a=index3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.007447s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.007251s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.008070s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.005825s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000299s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `pigcms_function` [ RunTime:0.005061s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `funname` = 'message' ) LIMIT 1   [ RunTime:0.000309s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.072540s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000615s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 124 行.
+NOTIC: [8] Undefined index: exceptCondition G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined variable: alert G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 418 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.073190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014630s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.087854s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.088263s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.088691s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.088957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001519s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.089431s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-10-18T17:49:26+08:00 ] 127.0.0.1 /index.php?g=User&m=Message&a=index3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.013070s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.009077s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.008324s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.007064s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000569s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000600s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `pigcms_function` [ RunTime:0.005319s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `funname` = 'message' ) LIMIT 1   [ RunTime:0.000304s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.069144s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000468s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 124 行.
+NOTIC: [8] Undefined index: exceptCondition G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined variable: alert G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 418 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.069647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014745s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.084427s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.084834s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.085269s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.085550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001540s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.086026s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000513s ]
+

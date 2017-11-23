@@ -1,0 +1,2 @@
+如果您的表前缀是tp_ 那么请把pigcms(2).sql 在网站的同一个数据库里用phpmyadmin导入一下就可以了
+如果您的表前缀是pigcms_ 那么请把pigcms(1).sql 在网站的同一个数据库里用phpmyadmin导入一下就可以了

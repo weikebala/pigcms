@@ -1,0 +1,96 @@
+[ 2017-11-21T09:29:14+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.012954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013011s ]
+SQL: SHOW COLUMNS FROM `pigcms_links` [ RunTime:0.012803s ]
+SQL: SELECT * FROM `pigcms_links` WHERE ( `status` = 1 )  [ RunTime:0.000788s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.098274s ]
+INFO: [ view_template ] --END-- [ RunTime:0.035043s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' G:\demo\pigcms\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid G:\demo\pigcms\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.133449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085137s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.218620s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.222705s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.229429s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.233401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016444s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.235156s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008982s ]
+
+[ 2017-11-21T09:29:17+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `pigcms_links` [ RunTime:0.003542s ]
+SQL: SELECT * FROM `pigcms_links` WHERE ( `status` = 1 )  [ RunTime:0.000293s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.022424s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' G:\demo\pigcms\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid G:\demo\pigcms\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.023227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010934s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.034181s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.034629s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.035030s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.035375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001627s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.035850s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2017-11-21T09:29:27+08:00 ] 127.0.0.1 HTTP://www.meigousy.com/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `pigcms_links` [ RunTime:0.010931s ]
+SQL: SELECT * FROM `pigcms_links` WHERE ( `status` = 1 )  [ RunTime:0.000816s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.044384s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003051s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' G:\demo\pigcms\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid G:\demo\pigcms\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.047548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026734s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.074326s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.075390s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.076442s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.077283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004079s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.078506s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2017-11-21T09:29:39+08:00 ] 127.0.0.1 HTTP://www.51pigcms.com/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `pigcms_links` [ RunTime:0.010965s ]
+SQL: SELECT * FROM `pigcms_links` WHERE ( `status` = 1 )  [ RunTime:0.000770s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.065708s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002583s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' G:\demo\pigcms\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid G:\demo\pigcms\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.068401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028912s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.097337s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.098154s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.098955s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.099595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003117s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.100532s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001016s ]
+

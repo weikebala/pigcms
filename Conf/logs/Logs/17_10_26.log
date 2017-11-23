@@ -1,0 +1,237 @@
+[ 2017-10-26T14:30:58+08:00 ] 127.0.0.1 /index.php?g=User&m=Wechat_group&a=send&token=luzdzh1508224426&next_openid=ogwwIwhehFptKzMnb0xV5DMd8NQs
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.012540s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.012731s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.011481s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.007298s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000346s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000434s ]
+NOTIC: [8] Undefined variable: curl G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 215 行.
+NOTIC: [8] Undefined property: stdClass::$data G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 96 行.
+NOTIC: [8] Trying to get property of non-object G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 96 行.
+NOTIC: [2] Invalid argument supplied for foreach() G:\demo\pigcms\PigCms\Lib\Action\User\Wechat_groupAction.class.php 第 100 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.525461s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001322s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.526890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019515s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.546516s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.547578s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.548644s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.549452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004192s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.550857s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001846s ]
+
+[ 2017-10-26T14:34:40+08:00 ] 127.0.0.1 /index.php?g=User&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [2048] Declaration of IndexAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') G:\demo\pigcms\PigCms\Lib\Action\User\IndexAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.012025s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.012004s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.009204s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.007285s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000444s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.007048s ]
+SQL: SELECT * FROM `pigcms_user_group`  [ RunTime:0.000247s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pigcms_wxuser` WHERE ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `uid` = 5 ) LIMIT 0,100   [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `pigcms_diymen_set` [ RunTime:0.004528s ]
+SQL: SELECT * FROM `pigcms_diymen_set` WHERE ( `token` = 'xdibck1508138749' ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `pigcms_diymen_set` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000220s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.094176s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001048s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' G:\demo\pigcms\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 50 行.
+NOTIC: [8] Use of undefined constant Common - assumed 'Common' G:\demo\pigcms\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 112 行.
+NOTIC: [8] Undefined variable: demo G:\demo\pigcms\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 165 行.
+NOTIC: [8] Undefined variable: alert G:\demo\pigcms\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 214 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.095264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015430s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.110731s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.111312s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.111868s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.112296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002154s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.112947s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2017-10-26T14:34:43+08:00 ] 127.0.0.1 /index.php?g=User&m=Function&a=index&id=11&token=xdibck1508138749
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.012555s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.011770s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.008502s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'luzdzh1508224426' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.007488s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'luzdzh1508224426' ) LIMIT 1   [ RunTime:0.000423s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `id` = 11 ) LIMIT 1   [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.006726s ]
+SQL: SELECT `id`,`queryname` FROM `pigcms_token_open` WHERE ( `token` = 'xdibck1508138749' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SELECT `id`,`name` FROM `pigcms_user_group` WHERE status=1 ORDER BY id ASC  [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `pigcms_function` [ RunTime:0.004204s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `status` = 1 ) AND ( `gid` = 1 )  [ RunTime:0.000362s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `status` = 1 ) AND ( `gid` = 2 )  [ RunTime:0.000266s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `status` = 1 ) AND ( `gid` = 3 )  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `status` = 1 ) AND ( `gid` = 4 )  [ RunTime:0.000231s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `status` = 1 ) AND ( `gid` = 5 )  [ RunTime:0.000172s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\demo\pigcms\PigCms\Lib\Action\User\FunctionAction.class.php 第 37 行.
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `pigcms_wxuser` WHERE ( `token` = 'xdibck1508138749' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000219s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.089947s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' G:\demo\pigcms\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 124 行.
+NOTIC: [8] Undefined index: exceptCondition G:\demo\pigcms\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 279 行.
+NOTIC: [8] Undefined variable: alert G:\demo\pigcms\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 434 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.090592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017799s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.108426s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.108883s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.109374s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.109642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001642s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.110127s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-10-26T14:34:51+08:00 ] 127.0.0.1 /index.php?g=User&m=Message&a=index&token=xdibck1508138749
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.011973s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.012770s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.009889s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'xdibck1508138749' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.005695s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'xdibck1508138749' ) LIMIT 1   [ RunTime:0.000327s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'xdibck1508138749' ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'xdibck1508138749' ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `pigcms_function` [ RunTime:0.006280s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `funname` = 'message' ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `pigcms_wechat_group` [ RunTime:0.005838s ]
+SQL: SELECT * FROM `pigcms_wechat_group` WHERE ( `token` = 'xdibck1508138749' ) ORDER BY id ASC  [ RunTime:0.000322s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.120089s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000875s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 124 行.
+NOTIC: [8] Undefined index: exceptCondition G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 279 行.
+NOTIC: [8] Undefined variable: info G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 344 行.
+NOTIC: [8] Undefined variable: alert G:\demo\pigcms\Conf\logs\Cache\User\7735aaf593246deb8be8909e398947ce.php 第 963 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.121022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040743s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.161786s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.162238s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.162592s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.162819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001357s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.163185s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-10-26T14:34:54+08:00 ] 127.0.0.1 /index.php?g=User&m=Message&a=index3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.012036s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.011741s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.006377s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'xdibck1508138749' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.006966s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'xdibck1508138749' ) LIMIT 1   [ RunTime:0.000372s ]
+NOTIC: [8] Undefined index: width G:\demo\pigcms\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'xdibck1508138749' ) LIMIT 1   [ RunTime:0.000389s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'xdibck1508138749' ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `pigcms_function` [ RunTime:0.006118s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `funname` = 'message' ) LIMIT 1   [ RunTime:0.000325s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.070313s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000831s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 124 行.
+NOTIC: [8] Undefined index: exceptCondition G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined index: test G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 279 行.
+NOTIC: [8] Undefined variable: alert G:\demo\pigcms\Conf\logs\Cache\User\01a9a862caefd625f784b21e9d594df1.php 第 418 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.071197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012711s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.083926s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.084247s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.084586s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.084794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001195s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.085166s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000398s ]
+

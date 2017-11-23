@@ -1,0 +1,105 @@
+<include file="Public:head"/>
+<link rel="stylesheet" type="text/css" href="./tpl/User/default/common/css/cymain.css" />
+<script src="/tpl/static/artDialog/jquery.artDialog.js?skin=default"></script>
+<script src="/tpl/static/artDialog/plugins/iframeTools.js"></script>
+<div class="content">
+        <div class="cLineB"><h4>群发信息</h4></div>
+        <div class="msgWrap form">
+                <ul id="tags" style="width:100%">
+                    <li>
+                            <a href="?g=User&m=Message&a=index">发送消息（通过群发接口）</a>
+                        </li>
+                    <li >
+                        <a href="?g=User&m=Message&a=index2">发送消息（通过客服接口）</a>
+                    </li>
+                    <li class="selectTag">
+                        <a href="?g=User&m=Message&a=index3">消息模板发送消息</a>
+                    </li>
+                    <li>
+                        <a href="?g=User&m=Message&a=sendHistory">发送记录</a>
+                    </li>
+                    <li>
+                        <a href="?g=User&m=Message&a=help">帮助说明</a>
+                    </li>
+                                <div class="clr" style="height:1px;background:#eee;margin-bottom:20px;"></div>
+                </ul>
+        </div>
+          <form method="post" action="{pigcms::U('Message/index3Ajax')}" onsubmit="return submitTest(this);">
+              <div class="msgWrap form">
+                  <div>
+                      <table class="userinfoArea" border="0" cellspacing="0" cellpadding="0" width="100%">
+                          <tbody>
+                          <tr>
+                              <th>详细内容</th>
+                              <td>
+                                  {{first.DATA}}<br/>
+                                  收入金额：{{keyword1.DATA}}<br/>
+                                  收入类型：{{keyword2.DATA}}<br/>
+                                  交易号：{{keyword3.DATA}}<br/>
+                                  到帐时间：{{keyword4.DATA}}<br/>
+                                  {{remark.DATA}}
+                              </td>
+                          </tr>
+                          <tr>
+                              <th>内容示例</th>
+                              <td>
+                                  收入提醒<br/>
+                                  收入金额：0.03<br/>
+                                  收入类型：一级分稍利润<br/>
+                                  交易号：16020301200<br/>
+                                  到帐时间：2016-03-09 10:05:08<br/>
+                                  点击些通知查看详细，如有疑问直接咨询在线客服。<br/>
+                              </td>
+                          </tr>
+
+                          </tbody>
+                      </table>
+                  </div>
+                    <table class="userinfoArea" border="0" cellspacing="0" cellpadding="0" width="100%">
+                      <tbody>
+                            <tr>
+                                <th>first参数</th>
+                                <td><input type="text"  name="first" value="" class="px require" style="width:400px;" /> </td>
+                            </tr>
+                            <tr>
+                                <th>keyword1参数</th>
+                                <td><input type="text"  name="keyword1" value="" class="px require" style="width:400px;" /> </td>
+                            </tr>
+                            <tr>
+                                <th>keyword2参数</th>
+                                <td><input type="text"  name="keyword2" value="" class="px require" style="width:400px;" /> </td>
+                            </tr>
+
+                            <tr>
+                                <th>remark参数</th>
+                                <td><input type="text"  name="remark" value="" class="px require" style="width:400px;" /> </td>
+                            </tr>
+                            <tr>
+                                <th>链接</th>
+                                <td><input type="text" name="link" value="" class="px require" style="width:400px;" /> </td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td><button type="submit" class="btnGreen">发送</button>　<a href="javascript:history.go(-1);" class="btnGray vm">取消</a></td>
+                            </tr>
+                            <input type="hidden" name="templateid" value="lZHxE1OB-ZS-NLB418Knfr3U3krlPxEXt_j237y1by0"/>
+                        </tbody>
+                    </table>
+
+              </div>
+          </form>
+          
+ </div>
+<include file="Public:footer"/>
+<script type="text/javascript">
+    function submitTest(form){
+        $.post("{pigcms::U('Message/index3Ajax')}",$(form).serialize(),function(res){
+            if(res.status==1){
+                alert(res.info);
+            }else{
+                alert(res.info);
+            }
+        },'json');
+        return false;
+    }
+</script>
